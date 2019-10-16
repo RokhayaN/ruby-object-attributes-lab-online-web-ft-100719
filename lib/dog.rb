@@ -8,8 +8,8 @@ class Dog
   end
 end 
   
-name = Dog.new("chien")
-Dog.name
+chien = Dog.new("chien")
+chien.name
  
   def initialize(breed)
     @breed= breed
@@ -18,6 +18,6 @@ Dog.name
     @breed
   end 
 end 
-breed = Dog.new("labrador")
-Dog.breed
+labrador = Dog.new("labrador")
+labrador.breed
     
