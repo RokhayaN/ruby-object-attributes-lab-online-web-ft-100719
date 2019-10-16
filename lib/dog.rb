@@ -11,5 +11,13 @@ end
 name = Dog.new("chien")
 Dog.name
  
-  
+  def initialize(breed)
+    @breed= breed
+  end 
+  def breed
+    @breed
+  end 
+end 
+breed = Dog.new("labrador")
+Dog.breed
     
